@@ -1,0 +1,7 @@
+- id: flake8
+  name: Flake8
+  description: Runs python flake8 via local Pipenv
+  entry: pipenv run flake8
+  language: system
+  types: [python]
+  require_serial: true
