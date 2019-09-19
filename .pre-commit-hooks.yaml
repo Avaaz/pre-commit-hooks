@@ -5,3 +5,10 @@
   language: system
   types: [python]
   require_serial: true
+- id: black
+  name: Black
+  description: Runs the Black auto-formatter via local Pipenv
+  entry: pipenv run black
+  language: system
+  types: [python]
+  require_serial: true
