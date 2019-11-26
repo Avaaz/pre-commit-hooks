@@ -12,3 +12,10 @@
   language: system
   types: [python]
   require_serial: true
+- id: isort
+  name: isort
+  description: Runs the isort import sorter via local Pipenv
+  entry: pipenv run isort
+  language: system
+  types: [python]
+  require_serial: true
